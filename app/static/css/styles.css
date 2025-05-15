@@ -2,9 +2,10 @@ article#random {
     font-size: 8rem;
     text-align: center;
     color: red;
-
+    display: flex;
+    flex-direction:column
 }
 
 article#random a {
-    font-size: 5rem;
+    font-size: 3rem;
 }
