@@ -1,0 +1,10 @@
+article#random {
+    font-size: 8rem;
+    text-align: center;
+    color: red;
+
+}
+
+article#random a {
+    font-size: 5rem;
+}

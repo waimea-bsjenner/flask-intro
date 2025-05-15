@@ -11,7 +11,9 @@ def home():
 
 @app.get("/random/")
 def random():
-    return str(randint(1,100000))
+    num = str(randint(1,100000))
+    return render_template('pages/random.jinja', num=num)
+
 @app.get("/about/")
 def about():
     return render_template('pages/about.jinja')
