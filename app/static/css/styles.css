@@ -9,3 +9,9 @@ article#random {
 article#random a {
     font-size: 3rem;
 }
+
+div#pageNotFound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

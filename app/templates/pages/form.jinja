@@ -1,0 +1,48 @@
+{% extends 'pages/base.jinja' %}
+
+{% block title %}
+    Flask Demo - About
+{% endblock %}
+
+{% block content %}
+
+    <article>
+        <h1>A Devious Form</h1>
+
+        <form method="POST" action="/processForm">
+            <fieldset>
+                
+                <label>
+                    VVh4t 15 y0ur n4m3?
+                    <input
+                        name="name"
+                        type="text"
+                        placeholder="Steven Paul Copley"
+                        required
+                    >
+                </label>
+
+                <label>
+                    VVh4t 15 y0ur 4g3?
+                    <input
+                        name="age"
+                        type="number"
+                        placeholder="21"
+                        min="0"
+                        max="727"
+                        required
+                    >
+                </label>
+
+                <label>
+                    <strong>credit card details.</strong>
+                    <input>
+                </label>
+
+            </fieldset>
+
+            <input type="submit" value="send off your personal information :D"
+        </form>    
+    </article>
+
+{% endblock %}
